@@ -1,0 +1,19 @@
+/* .main{
+    display: inline-flex;
+    height: 1000px;
+     width: 1000px;
+} */
+
+.linear{
+    background-image: linear-gradient(to left bottom, yellow,red);
+    height: 400px;
+    width: 400px;
+}
+.radial{
+    background-image: radial-gradient(black yellow);
+    height: 500px;
+    width: 500px;
+    position: realtive;
+
+}
+
