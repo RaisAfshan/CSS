@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoelement</title>
+    <link rel="stylesheet" href="">
+    <style>
+        h1::before{
+            content: "before content ";
+            color: red;
+        }
+        p::first-letter{
+            color: red;
+            font-size: 3em;
+        }
+        h2::first-line{
+            color: blue;
+
+        }
+        ::selection{
+            color: black;
+            background-color: yellow;
+        }
+         h1::selection{
+            color: black;
+            background-color: cadetblue;
+         }
+        
+    </style>
+</head>
+<body>
+    <h1>this is heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</p>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis</p>
+    
+    
+</body>
+</html>

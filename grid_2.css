@@ -1,0 +1,54 @@
+.container{
+    font-weight: bold;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr .5fr ;
+    grid-template-areas: 
+            "one two two "
+            "one three four"
+            "one five five"
+            "one six seven"
+            "eight eight eight";
+
+}
+.one{
+    grid-area: one;
+    background-color: green;
+    border: 2px solid red;
+}
+.two{
+    grid-area: two;
+    background-color: green;
+    border: 2px solid red;
+}
+.three{
+    grid-area: three;
+    background-color: green;
+    border: 2px solid red;
+}
+.four{
+    grid-area: four;
+    background-color: green;
+    border: 2px solid red;
+}
+.five{
+    grid-area: five;
+    background-color: green;
+    border: 2px solid red;
+}
+.six{
+    grid-area: six;
+    background-color: green;
+    border: 2px solid red;
+}
+.seven{
+    grid-area: seven;
+    background-color: green;
+    border: 2px solid red;
+}
+.eight{
+    grid-area: eight;
+    background-color: green;
+    border: 2px solid red;
+}

@@ -1,0 +1,11 @@
+p{
+    font-size: 1em;
+    transition: font-size 1s ;
+    color: brown;
+}
+
+p:hover{
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
